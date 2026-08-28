@@ -1,28 +1,15 @@
-# Python
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-.Python
-env/
-venv/
+
 .venv/
+venv/
+env/
 
-# Database - don't upload this!
-database.db
-*.db
-
-# Environment variables
 .env
-.env.local
 
-# FastAPI/Uvicorn
-*.log
+.pytest_cache/
+.coverage
+htmlcov/
 
-# IDE
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
+*.db
+database.db
